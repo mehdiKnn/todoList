@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+
+#app{
+    @apply h-screen flex justify-center items-center;
+}
+
+.btn-blue{
+    @apply bg-blue-500 text-white py-4 px-10 text-xl border-b-4 border-blue-700;
+}
+
+.btn-blue:hover{
+    @apply bg-blue-400 border-blue-500;
+}
+
+.inputAdd{
+    @apply  appearance-none p-5 text-gray-700 leading-tight ;
+}
+
+.inputAdd:focus{
+    @apply outline-none;
+}
+
+.header{
+    @apply text-xl flex w-full justify-center items-center;
+}
+
+.main{
+    @apply h-screen;
+}
+
+
+.firstContainer{
+    @apply flex justify-center mt-8;
+}
+
+.sideOption{
+    @apply flex justify-end mb-2;
+}
+
+.red-btn{
+    @apply bg-red-500 text-white mr-2 px-2 border-b-4 border-red-700;
+}
+
+.green-btn{
+    @apply bg-green-500 text-white px-2 mr-2 border-b-4 border-green-700;
+}
+
+.inputSearch{
+    @apply bg-gray-200 appearance-none border-2 border-gray-200 py-2 px-4 text-gray-700 leading-tight;
+}
+
+.inputSearch:focus{
+    @apply outline-none bg-white;
+}
+
+.card{
+    @apply bg-blue-100;
+}
+
+.cardContent{
+    @apply flex justify-between p-3 items-center border-b;
+}
+
+.delButton{
+    @apply bg-red-500 text-white py-1 px-3 border-b-4 border-red-700;
+}
+
+.delButton:hover{
+    @apply bg-red-400 border-red-500;
+}
+
+@tailwind utilities;
